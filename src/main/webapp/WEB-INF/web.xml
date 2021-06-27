@@ -25,4 +25,13 @@
     <servlet-name>SecondServlet</servlet-name>
     <url-pattern>/sec</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <servlet-name>ProductServlet</servlet-name>
+    <servlet-class>homework1.ProductServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ProductServlet</servlet-name>
+    <url-pattern>/product_servlet</url-pattern>
+  </servlet-mapping>
 </web-app>
